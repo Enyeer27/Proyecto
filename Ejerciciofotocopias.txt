@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/estilos.css">
+
+</head>
+
+<body>
+
+    <h1> Bienvenido </h1>     <h2> tabla ... de Heiver Cuesta Davila
+Heiver Cuesta Davila10:45 a. m.
+    <h1>Bienvenido</h1>
+
+    <h2>tabla de precios
+
+    </h2>
+
+    <table id="tablamuestra">
+
+        <tr>
+
+            <th>Fotocopias</th>
+
+            <th>Costo</th>
+
+
+
+        </tr>
+
+   
+
+        <tr>
+
+            <td>1 a 10</td>
+
+            <td>100$</td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+
+                11 a 20
+
+            </td>
+
+            <td>80$</td>
+
+
+
+        </tr>
+
+        <tr>
+
+            <td>21 a 50</td>
+
+            <td>50$</td>
+
+        </tr>
+
+        <tr>
+
+            <td>mayor a 50</td>
+
+            <td>30$</td>
+
+        </tr>
+
+    </table><br><br>
+
+    <h2>Ingresar datos del cliente</h2>
+
+    <BR>
+
+        <p id="myP">  Mostrar Resultados </p>
+
+    <BR>       
+
+Leído por última vez
+Imagen de perfil de Heiver Cuesta Davila.
+<form>         <input type = "text" id... de Heiver Cuesta Davila
+Heiver Cuesta Davila10:46 a. m.
+<form>
+
+        <input type="text" id="nombre" placeholder="Escribe el nombre de cliente"><br>
+
+        <input type="text" id="documento" placeholder="Documento del cliente"><br>
+
+        <input type="text" id="nombrelibro" placeholder="Nombre del libro"><br>
+
+        <input type="number" id="inicio" placeholder="pagina de inicio"><br>
+
+        <input type="number" id="final" placeholder="paginafinal"><br><br>
+
+        <input type="button" id="calcular" value="Ejecutar" onclick="Mostrar()">
+
+        <br>
+
+    </form>
+
+   
+
+   
+
+            <script>             functio... de Heiver Cuesta Davila
+Heiver Cuesta Davila10:46 a. m.
+   
+
+
+
+
+        <script>
+
+            function Mostrar(){
+
+               
+
+                alert("ingreso Bien")
+
+
+
+                let Nombre = document.getElementById('nombre').value;
+
+
+
+                let Documento= document.getElementById('documento').value;
+
+                let nombrelibro=document.getElementById('nombrelibro').value;
+
+
+
+                let Inicio= document.getElementById('inicio').value;
+
+                let Final= document.getElementById('final').value;
+
+                let valorfotocopia1=100
+
+                let valorfotocopia2=80
+
+                let valorfotocopia3=50
+
+                let valorfotocopia4=30
+
+                let mensaje;
+
+
+
+                let total_paginas = (Final-Inicio) + 1
+
+                 
+
+                alert("El total de fotocopias es: " + total_paginas)
+
+
+
+                if (total_paginas >= 1 && total_paginas <= 10)
+
+                   {
+
+                      var r1 = total_paginas * valorfotocopia1;
+
+                      alert("El valor a pagar es: " + r1)
+
+                   }
+
+
+
+                if (total_paginas >= 11 && total_paginas <= 20)
+
+                  {
+
+                      r1 = total_paginas * valorfotocopia2;
+
+                  }  
+
+
+
+               
+
+
+
+
+                document.getElementById("myP").innerHTML = r1;
+
+
+
+             
+
+            }
+
+
+
+        </script>
+
+   
+
+
+
+
+   
+
+</body>
+
+</html>
+
+tiene menú contextual
