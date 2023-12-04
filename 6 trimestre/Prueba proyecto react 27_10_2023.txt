@@ -1,8 +1,0 @@
-Comando para crear un proyecto react con javascript:
-npx create-react-app prueba
-
-Comando para crear un proyecto con typescript:
-npx create-react-app pruebas --template typescript
-
-Pagina para plantillas Bootstraps:
-La paltilla es new Age. 
